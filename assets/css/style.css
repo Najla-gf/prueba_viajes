@@ -1,3 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: "Raleway", sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.iconos {
+    background-color: #0ec9ec;
+    text-align: center;
+    font-size: 25px;
 }
