@@ -5,9 +5,13 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    color: white;
+    color: #c8dce3;
     background-color: black;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 22px;
 }
 
 .texto {
@@ -16,6 +20,12 @@ body {
 
 .iconos {
     background-color: #0ec9ec;
+    color: white;
     text-align: center;
     font-size: 25px;
+}
+
+.card {
+    background-color: #0ec9ec;
+    color: white;
 }
