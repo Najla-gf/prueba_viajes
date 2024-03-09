@@ -22,8 +22,8 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top px-5" data-bs-theme="dark">
+        <div class="container-fluid px-5">
             <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,13 +37,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#seccion1">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#seccion2">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#seccion3">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -75,12 +75,12 @@
             </button>
         </div>
     </header>
-    <!--seccion quienes somos-->
+    <!--Quienes Somos-->
     <section>
         <div class="container mb-3">
             <div class="row justify-content-center">
                 <div class="col-md-12 d-none d-sm-block">
-                    <h1 class="text-center mb-4 pt-4">¿QUIÉNES SOMOS?</h1>
+                    <h1 class="text-center mb-4 pt-4" id="seccion1">¿QUIÉNES SOMOS?</h1>
                     <hr>
                     <div class="row">
                         <div class="col-md-4">
@@ -124,7 +124,7 @@
     <!--destacados-->
     <section>
         <div class="container mb-3">
-            <h1 class="text-center mb-4 pt-4">DESTACADOS</h1>
+            <h1 class="text-center mb-4 pt-4" id="seccion2">DESTACADOS</h1>
             <hr>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
@@ -172,7 +172,7 @@
     </section>
     <!--contacto-->
     <div class="container mb-3">
-        <h1 class="text-center mb-4 pt-4">CONTACTO</h1>
+        <h1 class="text-center mb-4 pt-4" id="seccion3">CONTACTO</h1>
         <hr>
         <form>
             <div class="mb-3">
@@ -187,7 +187,8 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
             </div>
-            <button type="submit" class="btn btn-bg">Enviar</button>
+            <button type="button" class="btn btn-bg" data-bs-toggle="tooltip" data-bs-placement="right"
+                data-bs-custom-class="custom-tooltip" data-bs-title="Presiona para enviar" id="enviar">Enviar</button>
         </form>
     </div>
     <!--footer-->
@@ -211,7 +212,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        <!--version jquery online cdn-->
+    <!--version jquery online cdn-->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 

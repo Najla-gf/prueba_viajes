@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     color: #c8dce3;
@@ -33,6 +37,11 @@ h1 {
 .btn-bg {
     background-color: #0ec9ec;
     color: white;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #0ec9ec;
+    --bs-tooltip-color: var(--bs-white);
 }
 
 footer {
