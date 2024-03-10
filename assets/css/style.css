@@ -46,13 +46,14 @@ h1 {
 
 footer {
     background-color: #0ec9ec;
-    padding: 20px 0;
+    padding: 20px;
     margin-top: 50px;
 }
 
 .footer-text {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
+    color: white;
 }
 
 .rrss i {
