@@ -14,8 +14,10 @@ body {
     font-size: 14px;
 }
 
-h1 {
+.titulos {
     font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .texto {
