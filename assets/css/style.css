@@ -46,7 +46,7 @@ body {
     --bs-tooltip-color: var(--bs-white);
 }
 
-footer {
+.bg-color {
     background-color: #0ec9ec;
     padding: 20px;
     margin-top: 50px;
